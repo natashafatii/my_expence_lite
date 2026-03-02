@@ -1,6 +1,7 @@
 # 📱 MyExpenseLite
 
 A beautiful, feature-rich offline expense tracker built with Flutter. Track your income and expenses with ease!
+
 ![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue.svg) ![Dart](https://img.shields.io/badge/Dart-3.0+-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ---
@@ -91,5 +92,5 @@ flutter pub run build_runner build --delete-conflicting-outputs
 ```
 5. **Run the app**
    ```bash
-   flutter run
+ flutter run
    ```
