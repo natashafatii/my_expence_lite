@@ -1,26 +1,10 @@
 # 📱 MyExpenseLite
 
 A beautiful, feature-rich offline expense tracker built with Flutter. Track your income and expenses with ease!
-
-![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue.svg)
-![Dart](https://img.shields.io/badge/Dart-3.0+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue.svg) ![Dart](https://img.shields.io/badge/Dart-3.0+-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ---
 
-## 📋 Table of Contents
-- [Features](#-features)
-- [Technologies Used](#-technologies-used)
-- [Installation](#-installation)
-- [Project Structure](#-project-structure)
-- [Usage](#-usage)
-- [APK Download](#-apk-download)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
-- [Acknowledgments](#-acknowledgments)
-
----
 
 ## ✨ Features
 
@@ -91,4 +75,21 @@ A beautiful, feature-rich offline expense tracker built with Flutter. Track your
 ### Steps
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/my_expense_lite.git
+git clone https://github.com/natashafatii/my_expense_lite.git
+ ```
+2. **Navigate to project directory**
+ ```bash
+cd my_expense_lite
+ ```
+3. **Install dependencies**
+```bash
+flutter pub get
+```
+4. **Generate Hive adapters**
+```bash
+flutter pub run build_runner build --delete-conflicting-outputs
+```
+5. **Run the app**
+   ```bash
+   flutter run
+   ```
